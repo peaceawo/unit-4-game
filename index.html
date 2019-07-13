@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Save The World Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <div class="jumbotron">
+        <h3 class="display-4 text-center header">FOUR ELEMENTS COLLECTION GAME</h3>
+        <p class="lead">Instructions:</p>
+        <div class="row">
+            <div class="col-7">
+                <ol type="1">
+                    <li>You will be given a randon number at the start of the game</li>
+                    <li>By clicking on the elements below, you will add a specific amount of points to your total score</li>
+                    <li>The value of each element is hidden from untill you click on it</li>
+                    <li>Each time the game start, the value of the elemts and the total score changes</li>
+                    <li>You can only win and save the earth by matching your total score to Target Score.</li>
+                    <li>The earth is doomed and you lose if your total score is greater than the Target Score</li>
+                </ol>
+            </div>
+            <div class="col-5">
+                <div class="card col-12 border border-info">
+                    <div class="card-header">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Target Score: </h3>
+                                <h3 id ="target-score"></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="wrapper">
+                    <div class="elements">
+                        <div class="box earth-box"><img src="assets/img/earth.png"width="150"></div>
+                        <div class="box water-box"><img src="assets/img/water.png"width="150"></div>
+                    </div>
+
+                    <div class="elements">
+                        <div class="box wind-box"><img src="assets/img/wind.png" width="150"></div>
+                        <div class="box fire-box"><img src="assets/img/fire.png"width="150"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card col-12 border border-info">
+                    <div class="card-header">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Your Score:</h3>
+                            <h3 id ="your-score"></h3>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="card col-6 border border-info">
+                        <div class="card-header">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Wins</h5>
+                                <div id="wins"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="card col-6 border border-info">
+                        <div class="card-header">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Losses</h5>
+                                <div id="losses"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/game.js"></script>
+</body>

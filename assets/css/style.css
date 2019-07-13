@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Bahianita&display=swap');
+body{
+    background: url("../img/stars.jpg");
+ 
+}
+.jumbotron{
+    background:url("../img/stars.jpg");
+    color: white;
+    border: solid 10px,white;
+}
+.wrapper{
+    transform: rotate(45deg);
+    margin-left: 0;
+    float: left;
+}
+.header{
+    font-family: 'Lobster', cursive;
+    color: navajowhite;
+    margin-top: 0px;
+}
+
+
+.box{
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;   
+}
+.box:hover {opacity: 0.5}
+
+h3{
+    color:black;
+    text-align: center
+}
