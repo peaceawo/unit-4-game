@@ -1,4 +1,29 @@
 # unit-4-game
-Crystal Collector Game
+## Crystal Collector Game
+It is a fun and interactive game for web browsers. The app must dynamically update HTML page with the jQuery library.
 
-https://peaceawo.github.io/unit-4-game/
+### Here's how the app works:
+
+- There are four crystals displayed as buttons on the page.
+- The player is shown a random number at the start of the game.
+- When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
+- The game will hides the amount of each crystal until the player clicks a crystal.
+- When they do click one, the total score counter gets update.
+- The player wins if their total score matches the random number from the beginning of the game.
+- The player loses if their score goes above the random number.
+- The game restarts whenever the player wins or loses.
+- When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
+- The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+
+
+The Theme is Crystal of the Earth, So Please play to save the earth!!
+
+[click here to play game](https://peaceawo.github.io/unit-4-game/)
+ 
+
+
+### Technology Used
+- HTML
+- Javascript
+- CSS
+- JQuery
